@@ -1,0 +1,66 @@
+<style>
+    .dark{
+      background-color: #fff9f7;
+    }
+    body{
+      font-family: 'Raleway', sans-serif;
+    }
+     a{
+       color: black;
+     }
+     .overlay-div{
+      height: 100%;width: 100%; position: absolute; background-color: black;opacity: .4;
+     }
+     .cardText{
+      background: rgba(255,255,255, 0.9);border-radius: 5px;color: black;position: relative;top:9rem;
+     }
+
+     @media (max-width: 900px) {
+      .cardText{
+        position: relative;
+      bottom:2rem;
+     }
+
+     }
+  .myStyle{
+    border-radius: 20px;
+    width: min-content;
+  }
+  .myBtn{
+    border-radius: 20px;
+    position: relative;
+    right: 3rem;
+  }
+  .smallImage{
+    max-height: 500px;
+  }
+  .clientImg{
+ width: 170px;
+ opacity: .6;
+}
+.roundRound{
+border-radius: 50%;
+}
+.whyUs{
+position: relative;bottom: 13rem;
+}
+
+  @media (max-width: 600px){
+       .whyUs{
+          position: relative;
+          top: 7rem;
+         
+       }
+       
+       .landing{
+         font-size: 24px;
+        
+       }
+       .support{
+         font-size: 18px;
+       }
+       .whyUs-card{
+        min-width: 14rem;border-radius: 20px;
+       }
+  }
+</style>
