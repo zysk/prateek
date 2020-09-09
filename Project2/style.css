@@ -1,0 +1,78 @@
+<style>
+    body{
+        overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+    }
+ 
+    
+    .Action{
+      background-color: #2d2b46;
+      color: white;
+    }
+    .clientImg{
+      width: 170px;
+      opacity: .6;
+    }
+    .navbar{
+      text-transform: uppercase;
+      
+    }
+    .navbar-brand{
+      letter-spacing: 8px;
+      color: rgb(65, 62, 102);
+      font-size: 30px;
+      
+    }
+    .navbar-nav{
+      font-size: small;
+      color: rgb(65, 62, 102);
+    }
+ 
+    .headings{
+      color: rgb(65, 62, 102);
+      
+    }
+ 
+    .cardPik{
+      border-radius: 50%;
+    }
+ 
+    .testCard{
+      border: none;
+      
+    }
+    .fullScreen{
+      height: 100vh;
+    }
+ 
+    .dark{
+      background-color: #f5f8fd;
+    }
+    .cardDesc{
+      position: relative;
+      background-color: black;
+       opacity: .7;
+      top:10rem;
+      width: 100%;
+      
+    }
+ 
+    .aboutCont{
+      background-color: #f5f8fd;
+    }
+    .about-img{
+      position: relative;
+      top: 1rem;
+      left: 2rem;
+    }
+ 
+    @media (max-width: 600px){
+      .cardDesc{
+        top: 10rem;
+      }
+      .cardPik{
+        width: 100px;
+      }
+     
+    }
+ </style>
