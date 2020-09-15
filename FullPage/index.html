@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+     <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="fullPage">
+        
+        <div class="section s1">
+           
+           <div class="slide">
+               <h1>Cars</h1>
+           </div>
+           <div class="slide sl2">
+            <h1> More Cars</h1>
+           </div>
+           <div class="slide sl3">
+            <h1>Some more</h1>
+           </div>
+
+        </div>
+        <div class="section s2">
+            <h1>Second Section.</h1>
+         </div>
+         <div class="section s3">
+            <h1>Third Section.</h1>
+         </div>
+        
+
+         
+    </div>
+
+
+  
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+    <script>
+        new fullpage('.fullPage',{
+         autoScrolling: true,
+         navigation: true,
+         navigationTooltips: ['Home','AboutUs','ContactUs'],
+         showActiveTooltip: true,
+         controlArrows: false,
+         slidesNavigation: true,
+         
+     
+     
+        } )
+     
+       </script>
+
+
+</body>
+</html>

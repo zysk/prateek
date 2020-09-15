@@ -1,0 +1,34 @@
+h1{
+    font-family: 'Mob';
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+.s1{
+    background-image: url('s1.jpg');
+    background-size: cover;
+    
+}
+.s2{
+    background-image: url('s2.jpg');
+    background-size: cover;
+}
+.s3{
+    background-image: url('s3.jpg');
+    background-size: cover;
+}
+span{
+    background: white !important;
+}
+.fp-slidesNav.fp-bottom{
+    margin-left: 2rem!important;
+}
+.sl2{
+    background-image: url('sl2.jpg');
+    background-size: cover;
+}
+.sl3{
+    background-image: url('sl3.jpg');
+    background-size: cover;
+}
